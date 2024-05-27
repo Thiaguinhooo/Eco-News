@@ -1,0 +1,37 @@
+header {
+    background-color: #a10000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+nav {
+    display: flex;
+    align-items: center;
+  }
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+nav ul li {
+    margin-right: 30px;
+  }
+  
+header a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+header a:hover {
+    color: #9b4848;
+  }
+
+.logo {
+    max-height: 80px;
+    /* Definindo a altura máxima da logo */
+  }

@@ -1,0 +1,272 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #40673C;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 30px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: #849B48;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  /* Definindo o máximo de largura para a página */
+  margin: 0 auto;
+  /* Centralizando a página na tela */
+}
+
+
+.logo {
+  max-height: 80px;
+  /* Definindo a altura máxima da logo */
+}
+
+.banner {
+  size: 50px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  /* Evita que a imagem ultrapasse a largura da página */
+
+}
+
+/* ESSA PARTE E A DO TEXTO QUE FICA NA IMAGEM, NAO SEI OQ TA DANDO ERRADO MAS E SO DESATIAR QUE SAI, TEM QUE DESATIVAR A DIV QUE EU CRIEI TMB LA NO INDEX. */
+/* .textbanner{
+  height: 50px;
+  width: 50px;
+  background-image: url(../img/banner.png);
+  position: absolute;
+  
+}
+*/
+
+.doação a {
+  color: rgb(255, 255, 255);
+  border: #19D909 solid 8px;
+  background-color: #19D909;
+  -webkit-box-shadow: 6px 7px 44px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 7px 44px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 7px 44px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+.doação a:hover {
+  border-radius: 25px;
+  color: #ffffff;
+  transition: 0.8s;
+  -webkit-box-shadow: 0px 0px 29px -10px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 29px -10px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 29px -10px rgba(255, 255, 255, 1);
+}
+
+.container {
+  border: #40673C solid 2px;
+  background-color: #40673C;
+
+
+  padding: 10px;
+
+  max-width: 10000px;
+  margin: 0 auto;
+  color: #40673C;
+}
+
+.notícias {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.notícia {
+  border: #fafafa solid 1px;
+  background-color: #fafafa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.notícia img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.notícia>div {
+  padding: 10px;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+.notícia img {
+  width: 100%;
+}
+
+.container a {
+  color: #40673C;
+}
+
+h1 {
+  color: #f0f0f0;
+}
+
+/* .navf {
+  background-color: #40673C;
+  border: #40673C solid;
+  padding: 7px;
+  display: flex;
+
+} 
+
+.navf a {
+  color: #ffffff;
+  display: flex;
+
+}
+
+.figure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+} */
+
+.container h1 {
+  text-align: center;
+}
+
+.Textbanner {
+  background-image: url(../img/banner.png);
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.texto {
+  border: rgba(255, 255, 255, 0.5) solid 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 500px;
+  height: 200px;
+  border-radius: 16px;
+  padding: 10px;
+  padding-top: 40px;
+  color: #052b01;
+
+  font-size: large;
+  box-shadow: 1px -1px 14px 8px;
+}
+
+.borda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+
+}
+
+footer {
+  background-color: #273d24;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.redesfooter {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  justify-items: center;
+  align-content: space-evenly;
+  margin: 20px;
+}
+
+.imgpequeno img {
+  width: 60px;
+  padding: 5px;
+  background-color: #40673C;
+  border-radius: 40px;
+}
+
+.imggrande img {
+  width: 40px;
+  padding: 15px;
+
+  background-color: #40673C;
+  border-radius: 40px;
+}
+
+.imggrandedois img {
+  width: 30px;
+  align-content: space-evenly;
+  padding: 20px;
+  margin-bottom: 100px;
+
+  background-color: #40673C;
+  border-radius: 40px;
+}
+.imggrandetres{
+  width: 30px;
+  align-content: space-evenly;
+  padding: 20px;
+  margin-bottom: 100px;
+
+  background-color: #40673C;
+  border-radius: 40px;
+}
+.sobrenosfooter h1{
+  justify-content: center;
+
+}
+.titulors{
+  grid-column: span 3;
+}
+.sobrenosfooter p{
+  color: white;
+  background-color: #40673C;
+  border-radius: 5px;
+  text-align: center;
+
+}
+.sobrenosfooter h1{
+  text-align: center;
+  
+}
+.sobrenosfooter{
+  padding: 50px;
+}
+
+.logofooter {
+  max-width: 60px;
+}
